@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+<style>
+.axis line,
+.axis circle {
+  fill: none;
+  stroke: #777;
+  stroke-dasharray: 1,4;
+}
+
+.axis :last-of-type circle {
+  stroke: #333;
+  stroke-dasharray: none;
+}
+</style>
+<body>
+  <div id="chart" class="chart"> </div>
+  <script src="network_clock.js"></script>
+</body>
+</html>
